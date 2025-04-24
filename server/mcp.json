@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+        "mcp-rag": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "~/umcp/server",
+                "run",
+                "mcp_rag.py"
+            ],
+            "env": {
+                "SEARCH_KEY": "your-custom-search-key",
+            }
+        }
+    }
+}
